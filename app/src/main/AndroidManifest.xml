@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="35" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:appCategory="audio"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/medessence_new_logo_removebg_preview__1__3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test"
+        tools:targetApi="31">
+        <activity
+            android:name=".Qanda_page3"
+            android:exported="false" />
+        <activity
+            android:name=".ScanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".startup_page7"
+            android:exported="false" />
+        <activity
+            android:name=".RecipeSuggestionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mood_track_page_2"
+            android:exported="false" />
+        <activity
+            android:name=".mood_track_page_1"
+            android:exported="false" />
+        <activity
+            android:name=".X_RayComparison_page1"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.car.application"
+            android:resource="@xml/automotive_app_desc" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w36"
+            android:exported="false" />
+        <activity
+            android:name=".m_scheduler_1"
+            android:exported="false" />
+        <activity
+            android:name=".m_scheduler_5"
+            android:exported="false" />
+        <activity
+            android:name=".m_scheduler_2"
+            android:exported="false" />
+        <activity
+            android:name=".User_Profile"
+            android:exported="false" /> <!-- Girl pregnancy weeks -->
+        <activity
+            android:name=".girl_pregnant_w32"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w28"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w24"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w20"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w16"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w12"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w11"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w10"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w9"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w8"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w7"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w6"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w5"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w4"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w3"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w2"
+            android:exported="false" />
+        <activity
+            android:name=".girl_pregnant_w1"
+            android:exported="false" /> <!-- Boy pregnancy weeks -->
+        <activity
+            android:name=".boy_pregnant_w36"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w32"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w28"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w24"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w20"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w16"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w12"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w11"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w10"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w9"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w8"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w7"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w6"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w5"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w4"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w3"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w2"
+            android:exported="false" />
+        <activity
+            android:name=".boy_pregnant_w1"
+            android:exported="false" /> <!-- Other app pages -->
+        <activity
+            android:name=".Vitamin_page1"
+            android:exported="false" />
+        <activity
+            android:name=".family_link"
+            android:exported="false" />
+        <activity
+            android:name=".report_page3"
+            android:exported="false" />
+        <activity
+            android:name=".report_page2"
+            android:exported="false" />
+        <activity
+            android:name=".report_page1"
+            android:exported="false" />
+        <activity
+            android:name=".post_surgery_recovery_page_2"
+            android:exported="false" />
+        <activity
+            android:name=".crash2"
+            android:exported="false" />
+        <activity
+            android:name=".crash1"
+            android:exported="false" />
+        <activity
+            android:name=".xray_1"
+            android:exported="false" />
+        <activity
+            android:name=".startup_6"
+            android:exported="false" />
+        <activity
+            android:name=".startup_5"
+            android:exported="false" />
+        <activity
+            android:name=".startup_3"
+            android:exported="false" />
+        <activity
+            android:name=".startup_2"
+            android:exported="false" />
+        <activity
+            android:name=".startup_4"
+            android:exported="false" />
+        <activity
+            android:name=".startup_1"
+            android:exported="false" />
+        <activity
+            android:name=".post_surgery_recovery_page_3"
+            android:exported="false" />
+        <activity
+            android:name=".Vitamin_page3"
+            android:exported="false" />
+        <activity
+            android:name=".post_surgery_recovery_page1"
+            android:exported="false" />
+        <activity
+            android:name=".fake_medicine_defector_page02"
+            android:exported="false" />
+        <activity
+            android:name=".fake_medicine_defector_page01"
+            android:exported="false" />
+        <activity
+            android:name=".QandApage_2"
+            android:exported="false" />
+        <activity
+            android:name=".QandApage_1"
+            android:exported="false" />
+        <activity
+            android:name=".Multi_SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".Vitamin_page2"
+            android:exported="false" />
+        <activity
+            android:name=".map"
+            android:exported="false" />
+        <activity
+            android:name=".ai_gesstion_page1"
+            android:exported="false" /> <!-- Launcher activity -->
+        <activity
+            android:name=".ai_gesstion_page2"
+            android:exported="false" />
+        <activity
+            android:name=".dialog_add_log"
+            android:exported="false" />
+        <activity
+            android:name=".dreem_log_page1"
+            android:exported="false" />
+        <activity
+            android:name=".DreamDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DreamWriterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".music_player"
+            android:exported="false" />
+        <activity
+            android:name=".report_page5"
+            android:exported="false" />
+        <activity
+            android:name=".report_page4"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Preloaded Fonts -->
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCELprLYBuPdgcSjDtGXwP2MNlHgHX1Bhk" />
+    </application>
+
+</manifest>

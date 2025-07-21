@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Bottom Layer: Pink to White Gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#FFD3DB"
+            android:centerColor="#FFFFFF"
+            android:endColor="#FFD3DB"
+            android:angle="90" />
+        </shape>
+    </item>
+
+    <!-- Top Layer: Additional Gradient to Blend More Colors -->
+
+</layer-list>

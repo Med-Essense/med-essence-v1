@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "561506217187",
+    "project_id": "med----essence-c8829",
+    "storage_bucket": "med----essence-c8829.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561506217187:android:eb4073d0bcc40109f869d6",
+        "android_client_info": {
+          "package_name": "Med.Essence"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuM8UsLiNy1yAo_4S74W6lhdgBuF43s_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561506217187:android:dba87e546075b549f869d6",
+        "android_client_info": {
+          "package_name": "com.example.chatbot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuM8UsLiNy1yAo_4S74W6lhdgBuF43s_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561506217187:android:eb057fb9c065a31af869d6",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuM8UsLiNy1yAo_4S74W6lhdgBuF43s_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

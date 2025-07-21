@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Test" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="Theme.MyApplication" parent="Base.Theme.Test" />
+
+    <style name="Theme.Test" parent="Base.Theme.Test" />
+    <style name="Theme.ButtonStyle" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+</resources>

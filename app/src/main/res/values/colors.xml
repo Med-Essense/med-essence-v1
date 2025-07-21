@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pressed_color">#FF8FA2</color>
+    <color name="selected_color">#FFBCC8</color>
+    <color name="normal_color">#D4E7F4</color>
+    <color name="primaryColor">#4CAF50</color>
+    <color name="primaryLightColor">#C8E6C9</color>
+    <color name="secondaryTextColor">#757575</color>
+    <color name="errorColor">#F44336</color>
+    <color name="dividerColor">#E0E0E0</color>
+
+</resources>
